@@ -1,21 +1,14 @@
 # Security & Homelab Learning Log
 
-Personal security and homelab learning log. Attacks tested against my own hardware and networks, CTF writeups, and self-hosted infrastructure. All offensive testing is performed against owned devices and networks, with explicit authorization in cases involving a second party (e.g. family-owned hardware). See individual writeups for exact scope.
+Personal security and homelab learning log. Attacks tested against my own hardware and networks, CTF writeups, and self-hosted infrastructure. All offensive testing is performed against owned devices and networks, with explicit authorization in cases involving a second party. See individual writeups for exact scope.
 
 ## Structure
 
-- `attacks/` — offensive technique writeups (wifi, web, network)
-- `ctfs/` — completed CTF challenges and solutions
-- `homelab/` — self-hosted services, remote access, and infrastructure setup
+- **`attacks/`** — offensive technique writeups: wifi attacks, web application vulnerabilities, and general network pentesting as they're added.
+- **`ctfs/`** — completed CTF challenges with full solution writeups.
+- **`homelab/`** — self-hosted infrastructure and services run on a Raspberry Pi 4.
 
-## Attacks completed
-
-- WPA2 handshake capture
-- Evil twin access point
-
-## Homelab
-
-- Pi-hole network-wide DNS filtering
+Each writeup follows a consistent format: goal, setup, result, and takeaways, documented as close to real-time as possible rather than cleaned up after the fact.
 
 ## Disclaimer
 
