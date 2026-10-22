@@ -78,15 +78,6 @@ echo '<device-path>' | sudo tee /sys/bus/usb/drivers/usb/bind
 echo "Adapter reset complete"
 ```
 
-## Additional mitigation tried
-
-Disabling USB scatter-gather for the `mt76_usb` module, referenced in community reports as improving stability for this chipset family, though reported success varies by kernel version:
-
-```bash
-echo "options mt76_usb disable_usb_sg=1" | sudo tee /etc/modprobe.d/mt76_usb.conf
-sudo reboot
-```
-
 ## Takeaways
 
 - A symptom that looks like a power problem (device becomes unresponsive, recovers after a physical unplug/replug) is not always a power delivery problem. `vcgencmd get_throttled` gives a definitive, hardware-reported answer on Pi power state and should be checked directly rather than assumed from secondhand symptoms.
