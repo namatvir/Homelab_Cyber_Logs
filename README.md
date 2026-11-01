@@ -6,7 +6,7 @@ Personal security and homelab learning log. Attacks tested against my own hardwa
 
 - **`attacks/`** — offensive technique writeups: wifi attacks, web application vulnerabilities, and general network pentesting as they're added.
 - **`ctfs/`** — completed CTF challenges with full solution writeups.
-- **`homelab/`** — self-hosted infrastructure and services run on a Raspberry Pi 4.
+- **`homelab/`** — self-hosted infrastructure and services run on all hardware used.
 
 Each writeup follows a consistent format: goal, setup, result, and takeaways, documented as close to real-time as possible rather than cleaned up after the fact.
 
